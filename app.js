@@ -221,11 +221,17 @@ function renderPicked() {
     </div></div>`;
 }
 
+function activeFilterTags() {
+  return st.slots.filter((s) => s.tag && s.act && D.tags[s.tag] && D.tags[s.tag].f).map((s) => s.tag);
+}
+
 function renderGrid() {
   const q = st.q.trim().toLowerCase();
-  let list = CARS.filter((c) => c.side || c.hero);
-  if (q) list = CARS.filter((c) => c.n.toLowerCase().includes(q));
+  const need = activeFilterTags();
+  let list = CARS.filter((c) => need.every((t) => c.tags.includes(t)));
+  if (q) list = list.filter((c) => c.n.toLowerCase().includes(q));
   list = list.slice().sort((a, b) => (b.perf || 0) - (a.perf || 0));
+  $('#count').textContent = need.length ? `${list.length} คัน` : '';
   $('#grid').innerHTML = list.map((c) =>
     `<button type="button" class="car${st.car === c.id ? ' sel' : ''}" data-car="${c.id}">
       ${carImg(c, 'side')}<span class="nm">${esc(c.n)}</span></button>`).join('') ||
@@ -258,6 +264,7 @@ function renderTags() {
 /* ---------------------------------------------------------------- wiring */
 function update() {
   renderResult();
+  renderGrid();
   save();
 }
 

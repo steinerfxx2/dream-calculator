@@ -53,42 +53,48 @@
    "th": "ทีม Extreme",
    "prob": 4.08,
    "price": 3200,
-   "color": "#8f86ff"
+   "color": "#8f86ff",
+   "f": 1
   },
   "t2": {
    "group": "group",
    "th": "ทีม Sports",
    "prob": 4.53,
    "price": 3050,
-   "color": "#8f86ff"
+   "color": "#8f86ff",
+   "f": 1
   },
   "t3": {
    "group": "group",
    "th": "ทีม Standard",
    "prob": 6.8,
    "price": 2650,
-   "color": "#8f86ff"
+   "color": "#8f86ff",
+   "f": 1
   },
   "t4": {
    "group": "rarity",
    "th": "ตำนาน",
    "prob": 4.53,
    "price": 3150,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t5": {
    "group": "rarity",
    "th": "แรร์",
    "prob": 6.8,
    "price": 2250,
-   "color": "#4fc3e8"
+   "color": "#4fc3e8",
+   "f": 1
   },
   "t6": {
    "group": "rarity",
    "th": "ทั่วไป",
    "prob": 6.8,
    "price": 2250,
-   "color": "#4fc3e8"
+   "color": "#4fc3e8",
+   "f": 1
   },
   "t7": {
    "group": "rarity",
@@ -130,399 +136,456 @@
    "th": "FF",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t13": {
    "group": "drive",
    "th": "FR",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t14": {
    "group": "drive",
    "th": "MR",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t15": {
    "group": "drive",
    "th": "RR",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t16": {
    "group": "drive",
    "th": "F4",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t17": {
    "group": "drive",
    "th": "M4",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t18": {
    "group": "drive",
    "th": "R4",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t19": {
    "group": "origin",
    "th": "เกาหลีใต้",
    "prob": 0.57,
    "price": 2700,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t20": {
    "group": "origin",
    "th": "ญี่ปุ่น",
    "prob": 4.08,
    "price": 2700,
-   "color": "#ff6fb5"
+   "color": "#ff6fb5",
+   "f": 1
   },
   "t21": {
    "group": "origin",
    "th": "สวีเดน",
    "prob": 1.13,
    "price": 3150,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t22": {
    "group": "origin",
    "th": "อิตาลี",
    "prob": 1.13,
    "price": 3150,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t23": {
    "group": "origin",
    "th": "ฝรั่งเศส",
    "prob": 1.13,
    "price": 3150,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t24": {
    "group": "origin",
    "th": "เดนมาร์ก",
    "prob": 0.11,
    "price": 3200,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t25": {
    "group": "origin",
    "th": "อังกฤษ",
    "prob": 2.27,
    "price": 3000,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t26": {
    "group": "origin",
    "th": "เยอรมนี",
    "prob": 2.72,
    "price": 2700,
-   "color": "#8f86ff"
+   "color": "#8f86ff",
+   "f": 1
   },
   "t27": {
    "group": "origin",
    "th": "สหรัฐอเมริกา",
    "prob": 5.44,
    "price": 2500,
-   "color": "#8f86ff"
+   "color": "#8f86ff",
+   "f": 1
   },
   "t28": {
    "group": "origin",
    "th": "จีน",
    "prob": null,
    "price": null,
-   "color": "#f2c14e"
+   "color": "#f2c14e",
+   "f": 1
   },
   "t29": {
    "group": "brand",
    "th": "Acura",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t30": {
    "group": "brand",
    "th": "Alfa Romeo",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t31": {
    "group": "brand",
    "th": "Aston Martin",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t32": {
    "group": "brand",
    "th": "Audi",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t33": {
    "group": "brand",
    "th": "BMW",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t34": {
    "group": "brand",
    "th": "Bugatti",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t35": {
    "group": "brand",
    "th": "BYD",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t36": {
    "group": "brand",
    "th": "Cadillac",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t37": {
    "group": "brand",
    "th": "Chevrolet",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t38": {
    "group": "brand",
    "th": "Citroën",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t39": {
    "group": "brand",
    "th": "Dodge",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t40": {
    "group": "brand",
    "th": "Ferrari",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t41": {
    "group": "brand",
    "th": "Fiat",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t42": {
    "group": "brand",
    "th": "Ford",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t43": {
    "group": "brand",
    "th": "GHAC",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t44": {
    "group": "brand",
    "th": "Honda",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t45": {
    "group": "brand",
    "th": "Infiniti",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t46": {
    "group": "brand",
    "th": "Jaguar",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t47": {
    "group": "brand",
    "th": "Koenigsegg",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t48": {
    "group": "brand",
    "th": "Lamborghini",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t49": {
    "group": "brand",
    "th": "YANGWANG",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t50": {
    "group": "brand",
    "th": "รถสปอร์ต Lotus",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t51": {
    "group": "brand",
    "th": "Lynk & Co",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t52": {
    "group": "brand",
    "th": "Maserati",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t53": {
    "group": "brand",
    "th": "Mazda",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t54": {
    "group": "brand",
    "th": "McLaren",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t55": {
    "group": "brand",
    "th": "Benz",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t56": {
    "group": "brand",
    "th": "MINI",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t57": {
    "group": "brand",
    "th": "Mitsubishi",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t58": {
    "group": "brand",
    "th": "Nissan",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t59": {
    "group": "brand",
    "th": "Pagani",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t60": {
    "group": "brand",
    "th": "Porsche",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t61": {
    "group": "brand",
    "th": "Subaru",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t62": {
    "group": "brand",
    "th": "Toyota",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t63": {
    "group": "brand",
    "th": "Volkswagen",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t64": {
    "group": "brand",
    "th": "Volvo",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t65": {
    "group": "brand",
    "th": "Wuling",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t66": {
    "group": "brand",
    "th": "Xpeng",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t67": {
    "group": "brand",
    "th": "ZEEKR",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   },
   "t68": {
    "group": "brand",
    "th": "Zenvo",
    "prob": null,
    "price": null,
-   "color": null
+   "color": null,
+   "f": 1
   }
  }
 }

@@ -120,3 +120,4 @@ th:first-child, td:first-child { text-align: left; }
 #mbar[hidden] { display: none; }
 @media (min-width: 860px) { #mbar { display: none !important; } }
 @media (max-width: 859px) { .layout { padding-bottom: 90px; } }
+.count { margin-left: auto; color: var(--gold); font-size: 17px; font-weight: 600; }
