@@ -222,7 +222,7 @@ function renderPicked() {
 }
 
 function activeFilterTags() {
-  return st.slots.filter((s) => s.tag && s.act && D.tags[s.tag] && D.tags[s.tag].f).map((s) => s.tag);
+  return st.slots.filter((s) => s.tag && s.act && D.tags[s.tag] && D.tags[s.tag].f).map((s) => D.tags[s.tag].a || s.tag);
 }
 
 function renderGrid() {

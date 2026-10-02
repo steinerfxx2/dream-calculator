@@ -101,14 +101,17 @@
    "th": "ตำนานมิธธิค",
    "prob": null,
    "price": null,
-   "color": "#ff7ab8"
+   "color": "#ff7ab8",
+   "f": 1,
+   "a": "t8"
   },
   "t8": {
    "group": "rarity",
    "th": "ไพรม์เลเจนด์",
    "prob": null,
    "price": null,
-   "color": "#ff9f43"
+   "color": "#ff9f43",
+   "f": 1
   },
   "t9": {
    "group": "access",
