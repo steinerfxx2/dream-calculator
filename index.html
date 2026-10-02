@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>เครื่องคำนวณมอเตอร์โชว์ในฝัน</title>
+<meta name="description" content="คำนวณตั๋วรางวัลความฝัน ราคารับรถ และโอกาสได้รถที่อยากได้ ในมอเตอร์โชว์ในฝัน (Dream Expo) ของ Racing Master">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23e5383f%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2219%22 text-anchor=%22middle%22 fill=%22%23ffd84a%22 font-family=%22Arial%22 font-weight=%22700%22%3ED%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <p class="kicker">Racing Master · Dream Expo Calculator</p>
+    <h1>เครื่องคำนวณ<br><span>มอเตอร์โชว์ในฝัน</span></h1>
+    <div id="event" class="event"></div>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <div class="duo">
+  <section class="card" id="round">
+    <h2><b>1</b> แท็กที่ได้ในรอบนี้</h2>
+    <div id="slots"></div>
+    <label class="field">
+      <span>จำนวนรถในรายการความฝัน</span>
+      <input id="n" type="number" min="1" max="999" inputmode="numeric" placeholder="เช่น 12">
+    </label>
+    <div class="row-btns">
+      <button type="button" id="reset" class="ghost">ล้างรอบนี้</button>
+      <button type="button" id="share" class="ghost">คัดลอกลิงก์ผลนี้</button>
+    </div>
+  </section>
+
+  <section class="card result" id="result" aria-live="polite"></section>
+  </div>
+
+  <section class="card wide" id="target">
+    <h2><b>2</b> รถที่อยากได้</h2>
+    <div class="search">
+      <input id="q" type="search" placeholder="ค้นหาชื่อรถ เช่น Veneno" autocomplete="off">
+    </div>
+    <div id="picked"></div>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section class="card wide" id="tagtable">
+    <h2><b>3</b> อัตราแท็กและราคารถ</h2>
+    <div id="tags"></div>
+  </section>
+
+</main>
+
+<button type="button" id="mbar" hidden></button>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
